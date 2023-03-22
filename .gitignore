@@ -3,3 +3,4 @@ hymenoptera_data/
 .DS_Store
 val_results.json
 /dvclive
+/model.pt
