@@ -4,24 +4,24 @@ stages:
     cmd: python pretrained_model_tuner.py
     deps:
     - path: hymenoptera_data/
-      md5: 70257f9e4b0b3ec72deeed5e1b880c3b.dir
-      size: 47404368
-      nfiles: 401
+      md5: 5541a96fc6b9ced1bfc39f068d9e8a4f.dir
+      size: 47385924
+      nfiles: 398
     - path: pretrained_model_tuner.py
       md5: 6a7177cbfc33bcbe3e0c28d0b9755166
       size: 7161
     params:
       params.yaml:
         batch_size: 10
-        lr: 0.001
+        lr: 0.01
         model_name: alexnet
-        momentum: 0.01
+        momentum: 0.15
         num_classes: 2
         num_epochs: 2
     outs:
     - path: model.pt
-      md5: 1dfb8744d92660bd6fc00caca8753ca4
-      size: 228053109
+      md5: 9ff9450898936eb665e3ea77beca35fe
+      size: 228052625
     - path: results.json
-      md5: 6981548a16fcc96497443aafa9730b40
-      size: 106
+      md5: ce0196eefa90897f4995d58221ee7d22
+      size: 104
